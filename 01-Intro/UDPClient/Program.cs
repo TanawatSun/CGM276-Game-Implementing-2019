@@ -10,7 +10,7 @@ namespace UDPClient
     {
         static void Main(string[] args)
         {
-           string server = "10.1.116.239"; // loop back address
+           string server = "127.0.0.1"; // loop back address
            int servPort = 5000;
 
            string message = "Tanawat 5808657";
